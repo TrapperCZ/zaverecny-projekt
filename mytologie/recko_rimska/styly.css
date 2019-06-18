@@ -1,49 +1,53 @@
-h1{
-  background-color: black;
-  color: darkorange ;
-  text-align: center;
-  font-size: 200px;
-  }
-  
-  body{
-      background-color: black;
-      color: chartreuse;
-  }
-  h4{
-      text-align: center;
-      text-justify: auto;
-  }
-  nav{
+h1 {
     background-color: black;
-  }
-  
-  .domu{
+    color: darkorange;
+    text-align: center;
+    font-size: 200px;
+}
+
+body {
+    background-color: black;
+    color: chartreuse;
+}
+
+h4 {
+    text-align: center;
+    text-justify: auto;
+}
+
+nav {
+    background-color: black;
+}
+
+.domu {
     width: 30px;
-  
-  }
-  
-      
-      
-      @media (max-width: 420px) {
-        h1{
-          font-size: 50px;
-          color: red;
-        }
-       
-      }
-  
-      
-      @media (max-width: 700px) {
-        h1{
-          font-size: 75px;
-        
-        }
-       
-      }
-      
-      
-      html{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: black;
-        color: chartreuse;
-      }
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 50px;
+        color: red;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 75px;
+    }
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: chartreuse;
+}
+
+p {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+li {
+    margin-right: 100px;
+    margin-left: 100px;
+}
